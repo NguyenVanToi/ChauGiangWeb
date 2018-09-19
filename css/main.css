@@ -3,6 +3,50 @@
     background-size: 100% 100%;
     width: auto;
     height: 165px;
+    position: relative;
+}
+.img-banner .logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 190px;
+    height: 150px;
+    padding-bottom: 15px;
+}
+.img-banner .logo img{
+    width: 100%;
+    height: 100%;
+}
+.img-banner .title {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top:50%;
+    margin-top: -30px;
+    text-align: center;
+    color: #2b2a97;
+}
+.img-banner .title .viet-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+.img-banner .title .eng-title {
+    font-weight: bold;
+}
+.img-banner .title .address{
+    font-weight: bold;
+    position: absolute;
+    left: 25%;
+}
+.img-banner .social {
+    position: absolute;
+    right: 15px;
+    top:45%;
+}
+.img-banner .social .contact {
+    margin-right: 25px;
+    color: #000;
+    text-decoration: none;
 }
 .nav-head-logo {
     padding-top: 15px; }
@@ -204,13 +248,42 @@
     color: #e89745; }
 
 /*footer*/
-.footer {
-    margin-top: 40px;
-}
-.footer .footer-bottom {
-    background: url('https://via.placeholder.com/1305x165') no-repeat;
-    background-size: 100% 100%;
-    width: auto;
-    height: 165px;
-    position: relative;
-}
+footer {
+    margin-top: 30px; }
+footer .footer-up .map {
+    width: 65%;
+    height: 450px;
+    border: 0; }
+footer .footer-up .text-map blockquote {
+    padding: 0px 20px;
+    margin: 0 0 20px;
+    border-left: 3px solid #e89745; }
+footer .footer-up .text-map .text {
+    font-size: 22px; }
+footer .footer-up .text-map .cont {
+    margin: 15px 15px 15px 0px; }
+footer .footer-up .text-map .cont1 {
+    margin: 15px 23px 15px 0px; }
+footer .footer-up .text-map .cont2 {
+    margin: 15px 20px 15px 0px; }
+footer .footer-up .text-map .contact1 {
+    color: #333333; }
+footer .footer-up .text-map .contact {
+    color: #333333;
+    margin: 0 0 0 10px; }
+footer .footer-down {
+    background-color: #205071;
+    border-top: 3px solid #e89745; }
+footer .footer-down .menu {
+    margin-top: 25px;
+    padding: 0px 0px; }
+footer .footer-down .menu .text-menu {
+    border-left: none; }
+footer .footer-down .menu a {
+    color: #ffffff;
+    border-left: 2px solid #ffffff;
+    padding: 0px 30px; }
+footer .footer-down span {
+    color: #ffffff; }
+footer .footer-down {
+    padding-bottom: 10px; }
